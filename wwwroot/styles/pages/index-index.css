@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+/* index-index.css */
+#cont { position: relative; overflow-x: hidden; overflow-y: auto; height: 100%; padding: 0; }
+#cont .main { margin: 10px; }
+#cont .main .row { margin: 0; }
+.flex { display: flex; }
+
+/* seciton top */
+#cont .main .sectionTop > div { width: 100%; margin: 10px 0 0; overflow: hidden; }
+#cont .main .sectionTop > div .cont { display: flex; justify-content: space-between; border: 1px solid #ebebeb; padding: 20px 30px; background-color: #ffffff; }
+#cont .main .sectionTop > div .cont .img { width: 77px; height: 77px; background-image: url('../../images/common-icon.png'); background-repeat: no-repeat; }
+#cont .main .sectionTop > div .cont .icon-txl { background-position: 0px 0px; }
+#cont .main .sectionTop > div .cont .icon-hnum { background-position: -77px 0px; }
+#cont .main .sectionTop > div .cont .icon-income { background-position: -154px 0px; }
+#cont .main .sectionTop > div .cont .number { text-align: right; vertical-align: top; }
+#cont .main .sectionTop > div .cont .number > a { display: block; font-size: 40px; color: #000000; line-height: 52px; }
+#cont .main .sectionTop > div .cont .number > p { margin: 12.5px 0; font-size: 14px; line-height: 1; }
+#cont .main .sectionTop > div:last-child .cont { margin: 0; }
+@media (min-width: 1000px) {
+  #cont .main .sectionTop { display: flex; justify-content: space-between; }
+  #cont .main .sectionTop > div { width: 100%; margin: 0; }
+  #cont .main .sectionTop > div .cont { margin: 0 10px 0 0; }
+}
+
+/* seciton middle */
+#cont .main .sectionMid { margin: 10px 0 0; }
+#cont .main .sectionMid > div { width: 100%; overflow: hidden; }
+#cont .main .sectionMid > div .cont { height: 280px; border: 1px solid #ebebeb; box-shadow: 0 2px 1px #e0e0e0; background-color: #ffffff; }
+#cont .main .sectionMid > div:last-child .cont { margin: 10px 0 0; }
+#cont .main .sectionMid > div .cont .title { margin: 0; font-size: 16px; padding: 15px; border-bottom: 1px solid #efefef; }
+#cont .main .sectionMid > div .cont.server .title { display: flex; justify-content: space-between; margin: 0; font-size: 16px; padding: 15px; border: none; }
+#cont .main .sectionMid > div .cont.server .title a { font-size: 12px; }
+#cont .main .sectionMid > div .cont .cont_mid { margin: 15px; }
+#cont .main .sectionMid > div .cont .cont_mid .list { display: flex; margin: 0 0 19px; line-height: 19px; }
+#cont .main .sectionMid > div .cont .cont_mid .list:last-child { margin: 0	; }
+#cont .main .sectionMid > div .cont .cont_mid .name { font-size: 14px; width: 75px; line-height: 19px; }
+#cont .main .sectionMid > div .cont .cont_mid .list .text { font-size: 14px; }
+#cont .main .sectionMid > div .cont .cont_mid .list .text > a { font-size: 12px; }
+#cont .main .sectionMid > div .cont .cont_mid .list .text .text-orange { color: #f90; }
+#cont .main .sectionMid > div .cont .cont_mid .list.borderBo { border-bottom: 1px solid #efefef; margin: 0 0 10px; padding: 0 0 19px; }
+#cont .main .sectionMid > div .cont .cont_mid .list .text .fa-question-circle { font-size: 16px; color: #ff8040; }
+#cont .main .sectionMid > div .cont .cont_mid .btnP { justify-content: space-between; margin: 0 0 8px; }
+#cont .main .sectionMid > div .cont .cont_mid .btnP span { display: inline-block; }
+#cont .main .sectionMid > div .cont .cont_mid .btnP .mj-btn-orange { margin: 0; }
+#cont .main .sectionMid > div .cont.server .cont_mid { display: flex; justify-content: space-between; margin: 0 0 10px; padding: 0 10px; }
+#cont .main .sectionMid > div .cont.server .cont_mid:last-child { margin: 0; }
+#cont .main .sectionMid .server .cont_mid .cont_mid_img { width: 100%; }
+#cont .main .sectionMid .server .cont_mid .cont_mid_img:first-child .cont { margin: 0 5px 0 0; height: auto; }
+#cont .main .sectionMid .server .cont_mid .cont_mid_img:last-child .cont { margin: 0 0 0 5px; height: auto; }
+#cont .main .sectionMid > div .cont.server .cont_mid .cont_mid_img .cont > img { vertical-align: middle; width: 100%; height: 100px; }
+#cont .main .sectionMid .server .cont_mid .cont_mid_img .cont { display: block; position: relative; box-shadow: none; }
+#cont .main .sectionMid .server .cont_mid .cont_mid_img .cont > span { position: absolute; left: 0; width: 100%; bottom: 0; height: 25px; line-height: 25px;
+background-color: rgba(0, 0, 0, .6); color: #ffffff; text-align: center; font-size: 12px; }
+@media (min-width: 1000px) {
+  #cont .main .sectionMid { margin: 10px 0 0; display: flex; justify-content: space-between; }
+  #cont .main .sectionMid > div .cont { margin: 0 5px 0 0; height: 280px; border: 1px solid #ebebeb; box-shadow: 0 2px 1px #e0e0e0; background-color: #ffffff; }
+  #cont .main .sectionMid > div:last-child .cont { margin: 0 0 0 5px; }
+}
+
+/* section bottom */
+#cont .main .sectionBot { margin: 10px 0 0; }
+#cont .main .sectionBot > div { width: 100%; overflow: hidden; }
+#cont .main .sectionBot > div .cont { height: 280px; border: 1px solid #ebebeb; box-shadow: 0 2px 1px #e0e0e0; background-color: #ffffff; }
+#cont .main .sectionBot > div:last-child .cont { margin: 10px 0 0; }
+#cont .main .sectionBot > div .cont .title { display: flex; justify-content: space-between; margin: 0; font-size: 16px; padding: 15px; border-bottom: 1px solid #efefef; }
+#cont .main .sectionBot > div .cont .title > a { font-size: 12px; }
+#cont .main .sectionBot > div .cont .cont_mid { margin: 15px; }
+#cont .main .sectionBot > div .cont .cont_mid .notice { font-size: 12px; }
+#cont .main .sectionBot > div .cont .cont_mid .notice > li { display: flex; justify-content: space-between; line-height: 36px; }
+#cont .main .sectionBot > div .cont .cont_mid .notice > li > a { color: #333333; }
+#cont .main .sectionBot > div .cont .cont_mid .notice > li > a > img { margin: 0 0 0 20px; }
+#cont .main .sectionBot > div .cont .cont_mid .notice > li .fa-caret-right { margin: 0 8px 0 0; }
+@media (min-width: 1000px) {
+  #cont .main .sectionBot { display: flex; justify-content: space-between; margin: 10px 0 0; }
+  #cont .main .sectionBot > div .cont { margin: 0 5px 0 0; height: 280px; border: 1px solid #ebebeb; box-shadow: 0 2px 1px #e0e0e0; background-color: #ffffff; }
+  #cont .main .sectionBot > div:last-child .cont { margin: 0 0 0 5px; }
+}
+
+
+
+
+
+
+
+
+
+
