@@ -117,7 +117,7 @@ $(function () {
 
   ///切换皮肤保存到数据库
   function switchSkin(skin) {
-    $.post('/Settings/Member/SwtichSkin', { skin: skin , memberId: 608718829}, function () {
+    $.post('/ss/edss/', { skin: skin , memberId: 608718829}, function () {
     })
   }
 })
