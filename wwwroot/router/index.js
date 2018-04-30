@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import index from 'views/index/index.vue'
 import content from 'views/index/content.vue'
 import member from 'views/index/member.vue'
+import User from 'views/index/user.vue'
 
 Vue.use(Router)
 
@@ -12,12 +13,18 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: index
+      component: index,
     },
     {
       path: '/content',
       name: 'content',
-      component: content
+      component: content,
+      children: [
+        {
+          path: ':tv/article/:num',
+          component: User,
+        },
+      ]
     },
     {
       path: '/member',

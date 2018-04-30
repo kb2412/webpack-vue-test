@@ -35,11 +35,11 @@
       <div class="sectionMid">
         <div>
           <div class="cont">
-            <p class="title">31会议-上海八彦图</p>
+            <p class="title">XXXX-上海XXX</p>
             <div class="cont_mid">
               <p class="list">
                 <span class="name">管理员：</span>
-                <span class="text">Shipeng Fu 13661615006&nbsp;&nbsp;&nbsp;&nbsp;andy.fu@31huiyi.com</span>
+                <span class="text">XXXXXX 136XXXXXXX&nbsp;&nbsp;&nbsp;&nbsp;andy.fu@31huiyi.com</span>
               </p>
               <p class="list">
                 <span class="name">当前版本：</span>
@@ -47,7 +47,7 @@
               </p>
               <p class="borderBo list">
                 <span class="name">企业ID：</span>
-                <span class="text">104375386</span>
+                <span class="text">XXXXXXXX</span>
               </p>
               <p class="btnP list">
                 <span>

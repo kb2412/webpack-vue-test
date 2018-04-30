@@ -44,6 +44,8 @@
               <p class="list">
                 <span class="name">当前版本：</span>
                 <span class="text">高级版&nbsp;&nbsp;&nbsp;&nbsp;<a href="" class="text-orange">查看中级/高级功能对比</a></span>
+                <router-link to="/content/val1/article/blog">test链接</router-link>
+                <router-view></router-view>
               </p>
               <p class="borderBo list">
                 <span class="name">企业ID：</span>
