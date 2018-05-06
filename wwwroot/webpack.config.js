@@ -11,7 +11,6 @@ module.exports = {
     'app': './scripts/pages/app',
     //公共的库和框架的代码，公共的样式
     'vendor': [
-      'plugins/jQuery/dist/jquery.min.js',
       'vue',
       'vue-router',
       'styles/common/default.css',
@@ -134,7 +133,7 @@ module.exports = {
       'views': path.resolve(__dirname+'/views'),
       'components': path.resolve(__dirname+'/components'),
       '@': __dirname,
-      'jquery': __dirname+'/plugins/jQuery/dist/jquery.min.js',
+      'jquery': 'jquery/dist/jquery.min.js',
       'slimscroll': __dirname+'/plugins/jquery-slimscroll/jquery.slimscroll.min.js'
     }
   },

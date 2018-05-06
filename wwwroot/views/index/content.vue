@@ -8,7 +8,7 @@
             <span class="img icon-txl"></span>
             <div class="number">
               <a href="">69</a>
-              <p>通讯录人数1</p>
+              <p>通讯录人数con</p>
             </div>
           </div>
         </div>
@@ -207,8 +207,27 @@
   </div>
 </template>
 <script>
-  import 'styles/pages/index-content.scss'
+  import 'styles/pages/index-content.scss';
+
   export default {
-    name: 'content'
+    name: 'content',
+    data() {
+      return {
+
+      }
+    },
+    watch: {
+      '$route' (to, from) {
+        console.log(to);
+        console.log(this.$route.params.id);
+      }
+    },
+    created() {
+      console.log('eee');
+      console.log(this.$route.params.id);
+    },
+    methods: {
+
+    }
   }
 </script>

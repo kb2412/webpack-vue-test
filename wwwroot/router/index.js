@@ -15,7 +15,7 @@ export default new Router({
       component: index
     },
     {
-      path: '/content',
+      path: '/content/:id',
       name: 'content',
       component: content
     },

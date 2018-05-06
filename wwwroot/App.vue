@@ -9,15 +9,15 @@
 	</div>
 </template>
 <script>
-  import { heads } from 'components'
+  import { Heads } from 'components'
 	import 'styles/common/default.css'
 	import 'styles/common/scrmGlobal.css'
 	import 'jquery'
-	import slimscroll from 'slimscroll'
+	import 'slimscroll'
 	import 'scripts/common/header.js'
 
 	export default {
 		name: 'app',
-		components: { heads }
+		components: { Heads }
 	}
 </script>
