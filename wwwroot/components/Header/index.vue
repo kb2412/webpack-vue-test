@@ -6,7 +6,7 @@
 		<div id="navLayer">
 			<div class="logos text-center">
 				<a href="/">
-					<img src="http://file.31huiyi.com/Uploads/Files/2017/03/28/6362629700639496571204.png" alt="" />
+					<img src="" alt="" />
 				</a>
 			</div>
 			<div class="nav-user">
