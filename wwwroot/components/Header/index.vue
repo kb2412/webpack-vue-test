@@ -32,7 +32,7 @@
 					</a>
 					<ul class="userSet">
 						<li>
-							<a href="/About/Index">关于美加</a>
+							<a href="/About/Index">关于XX</a>
 						</li>
 						<li>
 							<a target="_blank" href="http://user.31huiyi.com/my/changepwd">修改密码</a>
