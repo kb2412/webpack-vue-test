@@ -12,7 +12,7 @@
 			<div class="nav-user">
 				<ul class="tips-icon">
 					<li>
-						<a href="/PhotoWall/Index" data-toggle="tooltip" data-placement="bottom" title="31案例库" class="icons icon-anli"></a>
+						<a href="/PhotoWall/Index" data-toggle="tooltip" data-placement="bottom" title="案例库" class="icons icon-anli"></a>
 					</li>
 					<li>
 						<a href="/Announcement/Index/619656333" data-toggle="tooltip" data-placement="bottom" title="系统公告" class="icons icon-gg"></a>
