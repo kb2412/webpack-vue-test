@@ -21,7 +21,7 @@
 						<a href="http://www.31meijia.com/Pushings/InformationDataForm/ApplyIndex/51480507/520847901?enc=157e007229ac7a3a4a49a4bae9a4362b" data-toggle="tooltip" data-placement="bottom" title="意见反馈" class="icons icon-fk"></a>
 					</li>
 					<li>
-						<a href="javascript:;" class="icons icon-kf linka text-info" data-html="true" data-container="body" data-placement="bottom" data-toggle="popover" data-trigger="hover" data-delay='{"show": 500, "hide": 100 }' data-content="<div class='row' style='border-bottom:1px solid #ccc; margin-bottom:20px; padding:10px;'><div class='col-md-4'><img src='http://static.31meijia.com/img/scrm/userimg.png' style='width:100%'></div><div class='col-md-8'><h3 style='font-size:24px; font-weight:500;'>玛丽 <img src='http://static.31meijia.com/img/scrm/user-icon.png'></h3><p style='font-size:14px; color:#999999;margin:0 0 10px;'>官方客服微信</p></div></div><div class='row' style='text-align:center; padding-bottom:20px;'><div style='color:#000; margin-bottom:10px; font-size:14px;'>扫描二维码，添加好友，进行咨询</div><div style='font-size:16px;'><img src='http://static.31meijia.com/img/scrm/menu-helpimg.png'></div></div>" data-original-title=""></a>
+						<a href="javascript:;" class="icons icon-kf linka text-info" data-html="true" data-container="body" data-placement="bottom" data-toggle="popover" data-trigger="hover" data-delay='{"show": 500, "hide": 100 }' data-content="<div class='row' style='border-bottom:1px solid #ccc; margin-bottom:20px; padding:10px;'><div class='col-md-4'><img src='http://static.31meijia.com/img/scrm/userimg.png' style='width:100%'></div><div class='col-md-8'><h3 style='font-size:24px; font-weight:500;'>玛丽<img src='http://static.31meijia.com/img/scrm/user-icon.png'></h3><p style='font-size:14px; color:#999999;margin:0 0 10px;'>官方客服微信</p></div></div><div class='row' style='text-align:center; padding-bottom:20px;'><div style='color:#000; margin-bottom:10px; font-size:14px;'>扫描二维码，添加好友，进行咨询</div><div style='font-size:16px;'><img src='http://static.31meijia.com/img/scrm/menu-helpimg.png'></div></div>" data-original-title=""></a>
 					</li>
 				</ul>
 				<span class="line"></span>
@@ -101,11 +101,12 @@
 	</header>
 </template>
 <script>
-	import 'styles/pages/index-head.scss'
-	import HeadBar from 'components/HeadBar'
+	import 'styles/pages/index-head.scss';
+	import HeadBar from 'components/HeadBar';
+
 	export default {
 		components: {
-			HeadBar
+			HeadBar,
 		}
 	}
 </script>
