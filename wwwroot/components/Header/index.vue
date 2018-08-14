@@ -1,7 +1,7 @@
 <template>
 	<header class="header-vue">
 		<head-bar>
-			<span>test components</span>
+			<span>nicai components</span>
 		</head-bar>
 		<div id="navLayer">
 			<div class="logos text-center">
