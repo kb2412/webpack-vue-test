@@ -1,7 +1,7 @@
 <template>
 	<header class="header-vue">
 		<head-bar>
-			<span>merge components</span>
+			<span>rebase2 components</span>
 		</head-bar>
 		<div id="navLayer">
 			<div class="logos text-center">
