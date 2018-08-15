@@ -1,7 +1,7 @@
 <template>
 	<header class="header-vue">
 		<head-bar>
-			<span>index components</span>
+			<span>rebase components</span>
 		</head-bar>
 		<div id="navLayer">
 			<div class="logos text-center">
